@@ -1,14 +1,14 @@
 let sounds = new Tone.Players({
 
-    "nuggets" : "sounds/chicken.wav",
+    "death" : "sounds/pianoDeath.wav",
     "howling" : "sounds/wind.wav",
-    "duct" : "sounds/ductTape.wav",
+    "owl" : "sounds/owl.wav",
     "chime" : "sounds/clockChime.wav",
 })
 
 const delay = new Tone.FeedbackDelay("8n", 0.5);
 
-let soundNames = ["nuggets", "howling", "duct", "chime"];
+let soundNames = ["death", "howling", "owl", "chime"];
 let buttons = [];
 
 let dSlider;
