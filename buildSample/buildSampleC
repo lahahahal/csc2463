@@ -1,9 +1,9 @@
 let sounds = new Tone.Players({
 
-    "death" : "sounds/pianoDeath.wav",
-    "howling" : "sounds/wind.wav",
-    "owl" : "sounds/owl.wav",
-    "chime" : "sounds/clockChime.wav",
+    "death" : "sounds/piano_death.wav",
+    "howling" : "sounds/wind_howl1.wav",
+    "owl" : "sounds/owl-1.wav",
+    "chime" : "sounds/clock-chime1.wav",
 })
 
 const delay = new Tone.FeedbackDelay("8n", 0.5);
